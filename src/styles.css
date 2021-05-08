@@ -1,0 +1,93 @@
+h1,
+h2,
+p,
+a,
+ul {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p,
+a {
+  font-weight: 300;
+}
+
+.card {
+  border: solid;
+  border-color: white;
+  padding: 10px;
+  display: block;
+  margin: 50px auto;
+  max-width: 600px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace1f9 100%);
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.units {
+  position: relative;
+  top: -15px;
+  font-size: 15px;
+}
+
+.message {
+  text-align: center;
+  color: white;
+}
+
+.title-weekday {
+  position: relative;
+  left: -28px;
+  top: -10px;
+}
+
+.date {
+  position: relative;
+  top: -10px;
+}
+
+.temperature-title {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.weekday-weather-icon {
+  font-size: 27px;
+}
+
+.fa-cloud-sun {
+  color: #f7aa00;
+}
+
+.fa-cloud-rain {
+  color: #0e6efb;
+}
+
+.fa-sun {
+  color: #ed4958;
+}
+
+.fa-bolt {
+  color: #ffdd00;
+}
+
+.weather-icon-title {
+  font-size: 40px;
+  position: relative;
+  left: -15px;
+}
+
+.btn-primary {
+  padding: 0 10px;
+  border-radius: 4px;
+}
